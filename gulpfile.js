@@ -3,6 +3,7 @@ var gulpsass = require('gulp-sass');
 var clean = require('gulp-clean');
 var connect = require('gulp-connect');
 var minifyjs = require('gulp-minify');
+var cssminify = require('gulp-clean-css');
 
 
 var paths = {
